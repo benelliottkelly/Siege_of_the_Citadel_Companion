@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'entrance_points',
     'dark_legion',
     'events',
+    'game_setups',
 ]
 
 MIDDLEWARE = [

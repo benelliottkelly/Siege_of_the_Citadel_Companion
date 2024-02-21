@@ -15,3 +15,6 @@ class Corporation(models.Model):
   corporation_special_ability_level_10 = models.TextField(max_length=3000)
   corporation_special_ability_level_11 = models.TextField(max_length=3000)
   corporation_special_ability_level_12 = models.TextField(max_length=3000)
+
+  def __str__(self):
+    return f'{self.name}'

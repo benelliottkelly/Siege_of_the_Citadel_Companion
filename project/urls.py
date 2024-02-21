@@ -13,4 +13,5 @@ urlpatterns = [
     path('api/entrance_points/', include('entrance_points.urls')),
     path('api/dark_legion/', include('dark_legion.urls')),
     path('api/events/', include('events.urls')),
+    path('api/game_setups/', include('game_setups.urls')),
 ]

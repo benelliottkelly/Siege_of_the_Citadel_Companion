@@ -14,3 +14,6 @@ class Doomtrooper(models.Model):
     related_name='doomtroopers'
   )
   description = models.TextField(max_length=2000)
+
+  def __str__(self):
+    return f'{self.name}'
