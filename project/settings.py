@@ -45,6 +45,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'users',
+    'battle_reports',
+    'experience',
+    'corporations',
+    'doomtroopers',
+    'specialist_types',
+    'levels',
 ]
 
 MIDDLEWARE = [
@@ -96,7 +102,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': env('DATABASE_NAME'),
-        'HOST': 'localhost',
+        'HOST': env('DATABASE_HOST'),
         'PORT': 5432,
 		    'USER': env('DATABASE_USER'),
 		    'PASSWORD': env('DATABASE_PASS'),
