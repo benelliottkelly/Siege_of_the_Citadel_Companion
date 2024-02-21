@@ -51,6 +51,9 @@ INSTALLED_APPS = [
     'doomtroopers',
     'specialist_types',
     'levels',
+    'entrance_points',
+    'dark_legion',
+    'events',
 ]
 
 MIDDLEWARE = [

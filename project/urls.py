@@ -10,4 +10,7 @@ urlpatterns = [
     path('api/doomtroopers/', include('doomtroopers.urls')),
     path('api/specialist_types/', include('specialist_types.urls')),
     path('api/levels/', include('levels.urls')),
+    path('api/entrance_points/', include('entrance_points.urls')),
+    path('api/dark_legion/', include('dark_legion.urls')),
+    path('api/events/', include('events.urls')),
 ]

@@ -3,6 +3,7 @@ from django.db import models
 class Experience(models.Model):
   owner = models.ForeignKey(
     to='users.User',
+    on_delete=models.CASCADE,
     related_name='experience'
   )
   battle_report = models.ForeignKey(

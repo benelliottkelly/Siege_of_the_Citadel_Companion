@@ -14,12 +14,12 @@ class BattleReport(models.Model):
   created_at = models.DateTimeField(auto_now_add=True)
   number_of_players = models.PositiveSmallIntegerField()
   corportations_playing = models.ManyToManyField(
-    to='corportations.Corporation',
+    to='corporations.Corporation',
     through='experience.Experience',
     related_name='battles_participated'
   )
   winner = models.ForeignKey(
-    to='corportations.Corporation',
+    to='corporations.Corporation',
     on_delete=models.CASCADE,
     related_name='battles_won'
   )

@@ -11,19 +11,16 @@ class Level(models.Model):
   map_tiles = fields.MultipleChoiceField(choices=TILES)
   dark_legion_entrance_points = models.ManyToManyField(
     to='entrance_points.EntrancePoint',
-    on_delete=models.CASCADE,
     related_name='levels'
   )
   additional_setup = models.TextField(max_length=2000)
   time_limit = models.PositiveSmallIntegerField()
   potential_events = models.ManyToManyField(
     to='events.Event',
-    on_delete=models.CASCADE,
     related_name='levels'
   )
   dark_legion_resources = models.ManyToManyField(
-    to='dark_legion_resources.DarkLegionResource',
-    on_delete=models.CASCADE,
+    to='dark_legion.DarkLegion',
     related_name='levels'
   )
 
