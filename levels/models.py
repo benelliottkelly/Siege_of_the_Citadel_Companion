@@ -8,6 +8,7 @@ class Level(models.Model):
 
   campaign = models.PositiveSmallIntegerField()
   mission = models.PositiveSmallIntegerField()
+  name = models.CharField(max_length=255, null=True)
   map_tiles = fields.MultipleChoiceField(choices=TILES)
   dark_legion_entrance_points = models.ManyToManyField(
     to='entrance_points.EntrancePoint',

@@ -18,3 +18,8 @@ class Experience(models.Model):
   )
   corporation_level = models.PositiveIntegerField()
   exp_above_level = models.PositiveIntegerField(default=0)
+  doomtroopers_used = models.ManyToManyField(
+    to='doomtroopers.Doomtrooper',
+    related_name='games_used_in',
+    blank=True
+  )
