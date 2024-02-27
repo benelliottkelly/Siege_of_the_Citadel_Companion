@@ -7,14 +7,14 @@ from rest_framework.permissions import IsAuthenticatedOrReadOnly
 # Path: /levels/
 # Methods: GET, POST
 class LevelListCreateView(ListCreateAPIView):
-  queryset = Level.objects.all()
+  queryset = Level.objects.all().prefetch_related('dark_legion_entrance_points', 'potential_events', 'dark_legion_resources')
   serializer_class = LevelSerializer
   permission_classes = [IsAuthenticatedOrReadOnly]
 
 # Path: /levels/:pk/
 # Methods: GET, PUT, PATCH, DELETE
 class LevelDetailView(RetrieveUpdateDestroyAPIView):
-  queryset = Level.objects.all()
+  queryset = Level.objects.all().prefetch_related('dark_legion_entrance_points', 'potential_events', 'dark_legion_resources')
   permission_classes = [IsAuthenticatedOrReadOnly]
 
   def get_serializer_class(self):

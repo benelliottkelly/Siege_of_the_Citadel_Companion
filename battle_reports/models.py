@@ -13,7 +13,7 @@ class BattleReport(models.Model):
   )
   created_at = models.DateTimeField(auto_now_add=True)
   number_of_players = models.PositiveSmallIntegerField()
-  corportations_playing = models.ManyToManyField(
+  corporations_playing = models.ManyToManyField(
     to='corporations.Corporation',
     through='experience.Experience',
     related_name='battles_participated'

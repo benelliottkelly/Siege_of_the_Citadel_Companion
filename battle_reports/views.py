@@ -9,14 +9,14 @@ from lib.permissions import IsOwnerOrReadOnly
 # Path: /battle_reports/
 # Methods: GET, POST
 class BattleReportListCreateView(OwnerListCreateView):
-  queryset = BattleReport.objects.all()
+  queryset = BattleReport.objects.all().select_related('owner', 'level', 'winner').prefetch_related('corporations_playing')
   serializer_class = BattleReportSerializer
   permission_classes = [IsAuthenticatedOrReadOnly]
 
 # Path: /battle_reports/:pk/
 # Methods: GET, PUT, PATCH, DELETE
 class BattleReportDetailView(RetrieveUpdateDestroyAPIView):
-  queryset = BattleReport.objects.all().select_related('owner')
+  queryset = BattleReport.objects.all().select_related('owner', 'level', 'winner').prefetch_related('corporations_playing')
   permission_classes = [IsOwnerOrReadOnly]
   
   def get_serializer_class(self):

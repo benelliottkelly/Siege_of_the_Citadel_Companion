@@ -1,0 +1,167 @@
+[
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 1,
+  "fields": {
+    "name": "Valerie Duval",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703203/Siege%20of%20the%20Citadel/valerie_duval_o3adwd.jpg",
+    "corporation": 4,
+    "specialist_type": 2,
+    "description": "The daughter of a prominent Field Marshall, a career in the Bauhaus military was inevitable. She joined the ranks of the Etoiles Mortant through cunning, deadly precision, and iron will to become a spectre of death. Her renown grew, which led Doomtroopers to call at her door."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 2,
+  "fields": {
+    "name": "Carl Lind",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703200/Siege%20of%20the%20Citadel/carl_lind_zhgguj.jpg",
+    "corporation": 4,
+    "specialist_type": 3,
+    "description": "A scion of House Phillipe, he put his family's electronic facilities to good use from an early age. As an adherent of the Order of the Devilcat, he is as deadly a warrior on the electronic battlefield as he is on the physical. His talents have cracked open numerous Dark Legion Citadels."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 3,
+  "fields": {
+    "name": "Max Steiner",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703208/Siege%20of%20the%20Citadel/max_steiner_cnbkut.jpg",
+    "corporation": 4,
+    "specialist_type": 1,
+    "description": "An officer, but no gentleman, many a scandal followed his early career, much to the chagrin of his esteemed noble family. Chiselled, handsome features, and deadly skills honed beneath the Venusian jungle canopy have made him a media sensation."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 4,
+  "fields": {
+    "name": "Mitch Hunter",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703187/Siege%20of%20the%20Citadel/mitch_hunter_yjy3og.jpg",
+    "corporation": 5,
+    "specialist_type": 2,
+    "description": "Having survived the mean streets of San Dorado from a very young age, Mitch has always been a master og his own destiny. Blessed with rugged good looks, seemingly endless luck, and battle prowess that borders on the supernatural, every would-be Doomtrooper strives to emulate his example."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 5,
+  "fields": {
+    "name": "Angelina Drake",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703209/Siege%20of%20the%20Citadel/angelina_drake_ma3sj4.jpg",
+    "corporation": 5,
+    "specialist_type": 3,
+    "description": "Orphaned at an early age, her drive to enact revenge against Mishima saw her take to the skies with the Howling Banshees. An epiphany over her self-destructive bloodlust opened her eyes, since then the Doomtroopers offered the chance to destroy humanity's true enemy."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 6,
+  "fields": {
+    "name": "Big Bob Watts",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703197/Siege%20of%20the%20Citadel/big_bob_watts_texlaf.jpg",
+    "corporation": 5,
+    "specialist_type": 1,
+    "description": "After single-handedly saving his unit, he was court-martialled from the Heavy Infantry for assaulting the officer responsible for the calamity. He earned a pardon from the Free Marines and a place amongst the Doomtroopers. His heart, however, remains with the Marines."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 7,
+  "fields": {
+    "name": "Coral Beach",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703196/Siege%20of%20the%20Citadel/coral_beach_ynz0lz.jpg",
+    "corporation": 1,
+    "specialist_type": 2,
+    "description": "A lively personality and vulgar sense of humor clash bizarrely with his cybernetic exterior. Not much of him remains that hasn't been upgraded or replaced at least once. He always leads the charge, testing his mettle against the toughest opponents with deadly efficiency and grim humor."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 8,
+  "fields": {
+    "name": "Vince Diamond",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703195/Siege%20of%20the%20Citadel/vince_diamond_sgcpco.jpg",
+    "corporation": 1,
+    "specialist_type": 1,
+    "description": "The poster boy for the grandeur and superiority that Cybertronic can achieve, he is a cold and calculating killing machine graced with the best technology humanity can offer. There have been many Diamond incarnations over the years, but none as deadly or vicious than this one."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 9,
+  "fields": {
+    "name": "Lori Faust",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703196/Siege%20of%20the%20Citadel/lori_faust_uumu1n.jpg",
+    "corporation": 1,
+    "specialist_type": 3,
+    "description": "Originally a Bauhaus Blitzer, Lori was mortally wounded by the Dark Legion, she was rescued by Cybertronic and given a new lease of life. A hatred of the Dark Legion burns hotly at the core of her scrambled memory. She has led the way in adapting hacking techniques."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 10,
+  "fields": {
+    "name": "Sean Gallagher",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703191/Siege%20of%20the%20Citadel/sean_gallagher_tkfklt.jpg",
+    "corporation": 2,
+    "specialist_type": 2,
+    "description": "The Gallaghers were renowned as the most proficient swordsmiths and runic masters in the solar system. Sean is the sole survivor of the entire Clan thanks to his own stubbornness and insistence on becoming a warrior. He joined the Wolfbanes to unleash his fury and guilt on his foes."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 11,
+  "fields": {
+    "name": "Edward S. Murdoch",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703192/Siege%20of%20the%20Citadel/edward_s_murdoch_rp7bln.jpg",
+    "corporation": 2,
+    "specialist_type": 1,
+    "description": "An honorable street urchin from Fukido, his antics soon drew the attention of a Golden Lions recruiter. His drive and abilities eventually led him to become a training instructor for the legendary unit. Despite being forced to reluctantly apply, he relishes the Doomtrooper life."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 12,
+  "fields": {
+    "name": "Selina Kingsfield",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703204/Siege%20of%20the%20Citadel/selina_kingsfield_skm7nj.jpg",
+    "corporation": 2,
+    "specialist_type": 3,
+    "description": "She bears a surname that draws disdain with honor and distinction. A stint in the trenches led to recruitment by the Blood Berets, who taught her how to fight her enemies with fury and valor. Asked to join the Doomtroopers, the have since taught her how to carve open a Citadel."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 13,
+  "fields": {
+    "name": "Oshiro Makiko",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703210/Siege%20of%20the%20Citadel/oshiro_makiko_lfchol.jpg",
+    "corporation": 3,
+    "specialist_type": 2,
+    "description": "Obligated by tradition to become the personal bodyguard of a Mishiman lord's daughter, she is now similarly bound to the Doomtroopers by duty and honor. She fights the enemies of humanity with cold fury and consummate skill so that she might return to her Lady's retinue."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 14,
+  "fields": {
+    "name": "Tatsu",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703206/Siege%20of%20the%20Citadel/tatsu_bxdj6c.jpg",
+    "corporation": 3,
+    "specialist_type": 1,
+    "description": "The sole survivor of a botched hostile takeover, drunk, dishonored, peerless, and Ronin were stigma that followed him wherever he went. A brush with a Semai cult gave him a new focus. Joining the Doomtroopers gave him a new lease of life, a new family and a new home."
+  }
+},
+{
+  "model": "doomtroopers.doomtrooper",
+  "pk": 15,
+  "fields": {
+    "name": "Tetsukage",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703207/Siege%20of%20the%20Citadel/tetsukage_jhpm62.jpg",
+    "corporation": 3,
+    "specialist_type": 3,
+    "description": "Taken as a child and indoctrinated into the Shadow Walkers, she clung onto her humanity and fled when she could. Now she is a whisper in the dark, a silent breeze on the skin, the Steel Shadow of death. There are few places that can remain secure against her skills, Citadels included."
+  }
+}
+]

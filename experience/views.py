@@ -9,14 +9,14 @@ from rest_framework.generics import RetrieveUpdateAPIView, ListCreateAPIView
 # Path: /experience/
 # Methods: GET, POST
 class ExperienceListCreateView(OwnerListCreateView):
-  queryset = Experience.objects.all()
+  queryset = Experience.objects.all().select_related('owner', 'battle_report', 'corporation').prefetch_related('doomtroopers_used')
   serializer_class = ExperienceSerializer
   permission_classes = [IsOwnerOrReadOnly]
 
 # Path: /experience/:pk/
 #Methods: GET, PUT, PATCH
 class ExperienceDetailView(RetrieveUpdateAPIView):
-  queryset = Experience.objects.all()
+  queryset = Experience.objects.all().select_related('owner', 'battle_report', 'corporation').prefetch_related('doomtroopers_used')
   permission_classes = [IsOwnerOrReadOnly]
 
   def get_serializer_class(self):

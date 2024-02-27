@@ -1,0 +1,186 @@
+[
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 1,
+  "fields": {
+    "map_tile": 15,
+    "cardinal_direction": "W"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 2,
+  "fields": {
+    "map_tile": 14,
+    "cardinal_direction": "E"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 3,
+  "fields": {
+    "map_tile": 9,
+    "cardinal_direction": "E"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 4,
+  "fields": {
+    "map_tile": 9,
+    "cardinal_direction": "S"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 5,
+  "fields": {
+    "map_tile": 7,
+    "cardinal_direction": "N"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 6,
+  "fields": {
+    "map_tile": 6,
+    "cardinal_direction": "E"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 7,
+  "fields": {
+    "map_tile": 4,
+    "cardinal_direction": "S"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 8,
+  "fields": {
+    "map_tile": 11,
+    "cardinal_direction": "W"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 9,
+  "fields": {
+    "map_tile": 10,
+    "cardinal_direction": "E"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 10,
+  "fields": {
+    "map_tile": 5,
+    "cardinal_direction": "W"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 11,
+  "fields": {
+    "map_tile": 11,
+    "cardinal_direction": "N"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 12,
+  "fields": {
+    "map_tile": 11,
+    "cardinal_direction": "S"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 13,
+  "fields": {
+    "map_tile": 1,
+    "cardinal_direction": "E"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 14,
+  "fields": {
+    "map_tile": 14,
+    "cardinal_direction": "N"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 15,
+  "fields": {
+    "map_tile": 2,
+    "cardinal_direction": "S"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 16,
+  "fields": {
+    "map_tile": 7,
+    "cardinal_direction": "S"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 17,
+  "fields": {
+    "map_tile": 16,
+    "cardinal_direction": "N"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 18,
+  "fields": {
+    "map_tile": 16,
+    "cardinal_direction": "S"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 19,
+  "fields": {
+    "map_tile": 11,
+    "cardinal_direction": "E"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 20,
+  "fields": {
+    "map_tile": 3,
+    "cardinal_direction": "E"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 21,
+  "fields": {
+    "map_tile": 2,
+    "cardinal_direction": "W"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 22,
+  "fields": {
+    "map_tile": 8,
+    "cardinal_direction": "E"
+  }
+},
+{
+  "model": "entrance_points.entrancepoint",
+  "pk": 23,
+  "fields": {
+    "map_tile": 8,
+    "cardinal_direction": "W"
+  }
+}
+]

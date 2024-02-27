@@ -9,14 +9,14 @@ from lib.permissions import IsOwnerOrReadOnly
 # Path: /doomtroopers/
 # Methods: GET, POST
 class DoomtrooperListCreateView(OwnerListCreateView):
-  queryset = Doomtrooper.objects.all()
+  queryset = Doomtrooper.objects.all().select_related('corporation', 'specialist_type')
   serializer_class = DoomtrooperSerializer
   permission_classes = [IsAuthenticatedOrReadOnly]
 
 # Path: /doomtroopers/:pk/
 # Methods: GET, PUT, PATCH, DELETE
 class DoomtrooperDetailView(RetrieveUpdateDestroyAPIView):
-  queryset = Doomtrooper.objects.all().select_related('owner')
+  queryset = Doomtrooper.objects.all().select_related('corporation', 'specialist_type')
   permission_classes = [IsOwnerOrReadOnly]
 
   def get_serializer_class(self):

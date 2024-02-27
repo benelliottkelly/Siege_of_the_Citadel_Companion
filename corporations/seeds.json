@@ -1,0 +1,102 @@
+[
+{
+  "model": "corporations.corporation",
+  "pk": 1,
+  "fields": {
+    "name": "Cybertronic",
+    "logo": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703147/Siege%20of%20the%20Citadel/cybertronic_ffejji.png",
+    "corporation_special_ability_level_1": "The team may re-roll 1 unsuccessful combat die when making a tech attack, adding any success to the total.",
+    "corporation_special_ability_level_2": "The team may re-roll 1 unsuccessful combat die when making a tech attack, adding any success to the total.",
+    "corporation_special_ability_level_3": "The team may re-roll 1 unsuccessful combat die when making a tech attack, adding any success to the total.",
+    "corporation_special_ability_level_4": "The team may re-roll 1 unsuccessful combat die when making a tech attack, adding any success to the total.",
+    "corporation_special_ability_level_5": "The team may re-roll 1 unsuccessful combat die when making a tech attack, adding any success to the total.",
+    "corporation_special_ability_level_6": "The team may re-roll 1 unsuccessful combat die when making a tech attack, adding any success to the total.",
+    "corporation_special_ability_level_7": "The team may re-roll up to 2 unsuccessful combat dice when making a tech attack, adding any success to the total.",
+    "corporation_special_ability_level_8": "The team may re-roll up to 2 unsuccessful combat dice when making a tech attack, adding any success to the total.",
+    "corporation_special_ability_level_9": "The team may re-roll up to 2 unsuccessful combat dice when making a tech attack, adding any success to the total.",
+    "corporation_special_ability_level_10": "The team may re-roll up to 2 unsuccessful combat dice when making a tech attack, adding any success to the total.",
+    "corporation_special_ability_level_11": "The team may re-roll up to 2 unsuccessful combat dice when making a tech attack, adding any success to the total.",
+    "corporation_special_ability_level_12": "The team may re-roll up to 3 unsuccessful combat dice when making a tech attack, adding any success to the total."
+  }
+},
+{
+  "model": "corporations.corporation",
+  "pk": 2,
+  "fields": {
+    "name": "Imperial",
+    "logo": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703145/Siege%20of%20the%20Citadel/imperial_zzwb5h.png",
+    "corporation_special_ability_level_1": "The team starts a mission with 1 additional Doomtrooper card.",
+    "corporation_special_ability_level_2": "The team starts a mission with 1 additional Doomtrooper card.",
+    "corporation_special_ability_level_3": "The team starts a mission with 1 additional Doomtrooper card.",
+    "corporation_special_ability_level_4": "The team starts a mission with 1 additional Doomtrooper card.",
+    "corporation_special_ability_level_5": "The team starts a mission with 1 additional Doomtrooper card.",
+    "corporation_special_ability_level_6": "The team starts a mission with 1 additional Doomtrooper card.",
+    "corporation_special_ability_level_7": "The team starts a mission with 2 additional Doomtrooper cards.",
+    "corporation_special_ability_level_8": "The team starts a mission with 2 additional Doomtrooper cards.",
+    "corporation_special_ability_level_9": "The team starts a mission with 2 additional Doomtrooper cards.",
+    "corporation_special_ability_level_10": "The team starts a mission with 2 additional Doomtrooper cards.",
+    "corporation_special_ability_level_11": "The team starts a mission with 2 additional Doomtrooper cards.",
+    "corporation_special_ability_level_12": "The team starts a mission with 3 additional Doomtrooper cards."
+  }
+},
+{
+  "model": "corporations.corporation",
+  "pk": 3,
+  "fields": {
+    "name": "Mishima",
+    "logo": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703144/Siege%20of%20the%20Citadel/mishima_k0pdwz.png",
+    "corporation_special_ability_level_1": "The team may re-roll 1 unsuccessful combat die when making a close combat attack, adding any success to the total.",
+    "corporation_special_ability_level_2": "The team may re-roll 1 unsuccessful combat die when making a close combat attack, adding any success to the total.",
+    "corporation_special_ability_level_3": "The team may re-roll 1 unsuccessful combat die when making a close combat attack, adding any success to the total.",
+    "corporation_special_ability_level_4": "The team may re-roll 1 unsuccessful combat die when making a close combat attack, adding any success to the total.",
+    "corporation_special_ability_level_5": "The team may re-roll 1 unsuccessful combat die when making a close combat attack, adding any success to the total.",
+    "corporation_special_ability_level_6": "The team may re-roll 1 unsuccessful combat die when making a close combat attack, adding any success to the total.",
+    "corporation_special_ability_level_7": "The team may re-roll up to 2 unsuccessful combat dice when making a close combat attack, adding any successes to the total.",
+    "corporation_special_ability_level_8": "The team may re-roll up to 2 unsuccessful combat dice when making a close combat attack, adding any successes to the total.",
+    "corporation_special_ability_level_9": "The team may re-roll up to 2 unsuccessful combat dice when making a close combat attack, adding any successes to the total.",
+    "corporation_special_ability_level_10": "The team may re-roll up to 2 unsuccessful combat dice when making a close combat attack, adding any successes to the total.",
+    "corporation_special_ability_level_11": "The team may re-roll up to 2 unsuccessful combat dice when making a close combat attack, adding any successes to the total.",
+    "corporation_special_ability_level_12": "The team may re-roll up to 3 unsuccessful combat dice when making a close combat attack, adding any successes to the total."
+  }
+},
+{
+  "model": "corporations.corporation",
+  "pk": 4,
+  "fields": {
+    "name": "Bauhaus",
+    "logo": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703144/Siege%20of%20the%20Citadel/bauhaus_h7dkpn.png",
+    "corporation_special_ability_level_1": "The team may re-roll 1 unsuccessful combat die when making a firearm attack, adding any success to the total.",
+    "corporation_special_ability_level_2": "The team may re-roll 1 unsuccessful combat die when making a firearm attack, adding any success to the total.",
+    "corporation_special_ability_level_3": "The team may re-roll 1 unsuccessful combat die when making a firearm attack, adding any success to the total.",
+    "corporation_special_ability_level_4": "The team may re-roll 1 unsuccessful combat die when making a firearm attack, adding any success to the total.",
+    "corporation_special_ability_level_5": "The team may re-roll 1 unsuccessful combat die when making a firearm attack, adding any success to the total.",
+    "corporation_special_ability_level_6": "The team may re-roll 1 unsuccessful combat die when making a firearm attack, adding any success to the total.",
+    "corporation_special_ability_level_7": "The team may re-roll up to 2 unsuccessful combat dice when making a firearm attack, adding any successes to the total.",
+    "corporation_special_ability_level_8": "The team may re-roll up to 2 unsuccessful combat dice when making a firearm attack, adding any successes to the total.",
+    "corporation_special_ability_level_9": "The team may re-roll up to 2 unsuccessful combat dice when making a firearm attack, adding any successes to the total.",
+    "corporation_special_ability_level_10": "The team may re-roll up to 2 unsuccessful combat dice when making a firearm attack, adding any successes to the total.",
+    "corporation_special_ability_level_11": "The team may re-roll up to 2 unsuccessful combat dice when making a firearm attack, adding any successes to the total.",
+    "corporation_special_ability_level_12": "The team may re-roll up to 3 unsuccessful combat dice when making a firearm attack, adding any successes to the total."
+  }
+},
+{
+  "model": "corporations.corporation",
+  "pk": 5,
+  "fields": {
+    "name": "Capitol",
+    "logo": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703143/Siege%20of%20the%20Citadel/capitol_czgfjv.png",
+    "corporation_special_ability_level_1": "The team starts the missions with 1 additional credit, and may equip items 1 rank above.",
+    "corporation_special_ability_level_2": "The team starts the missions with 1 additional credit, and may equip items 1 rank above.",
+    "corporation_special_ability_level_3": "The team starts the missions with 1 additional credit, and may equip items 1 rank above.",
+    "corporation_special_ability_level_4": "The team starts the missions with 1 additional credit, and may equip items 1 rank above.",
+    "corporation_special_ability_level_5": "The team starts the missions with 1 additional credit, and may equip items 1 rank above.",
+    "corporation_special_ability_level_6": "The team starts the missions with 1 additional credit, and may equip items 1 rank above.",
+    "corporation_special_ability_level_7": "The team starts the missions with 2 additional credits, and may equip items 1 rank above.",
+    "corporation_special_ability_level_8": "The team starts the missions with 2 additional credits, and may equip items 1 rank above.",
+    "corporation_special_ability_level_9": "The team starts the missions with 2 additional credits, and may equip items 1 rank above.",
+    "corporation_special_ability_level_10": "The team starts the missions with 2 additional credits, and may equip items 1 rank above.",
+    "corporation_special_ability_level_11": "The team starts the missions with 2 additional credits, and may equip items 1 rank above.",
+    "corporation_special_ability_level_12": "The team starts the missions with 3 additional credits, and may equip items 1 rank above."
+  }
+}
+]

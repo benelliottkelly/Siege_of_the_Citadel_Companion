@@ -9,7 +9,7 @@ from lib.permissions import IsOwnerOrReadOnly
 # Path: /game_setups/
 # Methods: GET, POST
 class GameSetupListCreateView(OwnerListCreateView):
-  queryset = GameSetup.objects.all()
+  queryset = GameSetup.objects.all().select_related('owner').prefetch_related('mission', 'corporations')
   serializer_class = GameSetupSerializer
   permission_classes = [IsAuthenticatedOrReadOnly]
 

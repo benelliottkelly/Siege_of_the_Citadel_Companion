@@ -1,0 +1,26 @@
+[
+{
+  "model": "specialist_types.specialisttype",
+  "pk": 1,
+  "fields": {
+    "name": "Firearms",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708699775/Siege%20of%20the%20Citadel/firearm_bgvbfs.png"
+  }
+},
+{
+  "model": "specialist_types.specialisttype",
+  "pk": 2,
+  "fields": {
+    "name": "Close Combat",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708699775/Siege%20of%20the%20Citadel/close_combat_dkgkco.png"
+  }
+},
+{
+  "model": "specialist_types.specialisttype",
+  "pk": 3,
+  "fields": {
+    "name": "Tech",
+    "picture": "https://res.cloudinary.com/dqk3feale/image/upload/v1708699775/Siege%20of%20the%20Citadel/tech_buqbzv.png"
+  }
+}
+]
