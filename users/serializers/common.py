@@ -10,18 +10,20 @@ class RegistrationSerializer(serializers.ModelSerializer):
   class Meta:
     model = User
     fields = ('id', 'username', 'email', 'password', 'password_confirmation')
+    extra_fields = ['password_confirmation']
 
   def validate(self, data):
-    print('DATA ->', data)
+    # print('DATA ->', data)
     password = data.get('password')
     password_confirmation = data.pop('password_confirmation')
 
     if password != password_confirmation:
       raise serializers.ValidationError('Passwords do not match.')
+    return data
     
-    def create(self, validated_data):
-      user = User.objects.create_user(**validated_data)
-      return user
+  def create(self, validated_data):
+    user = User.objects.create_user(**validated_data)
+    return user
 
 class UserSerializer(serializers.ModelSerializer):
   class Meta:

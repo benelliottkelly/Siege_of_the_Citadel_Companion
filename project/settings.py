@@ -110,7 +110,15 @@ DATABASES = {
         'PORT': 5432,
 		    'USER': env('DATABASE_USER'),
 		    'PASSWORD': env('DATABASE_PASS'),
-    }
+        'TEST': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': env('DATABASE_NAME'),
+            'HOST': env('DATABASE_HOST'),
+            'PORT': 5432,
+            'USER': env('DATABASE_USER'),
+            'PASSWORD': env('DATABASE_PASS'),
+        }
+    },
 }
 
 
