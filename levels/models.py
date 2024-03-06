@@ -14,7 +14,7 @@ class Level(models.Model):
     to='entrance_points.EntrancePoint',
     related_name='levels'
   )
-  additional_setup = models.TextField(max_length=2000)
+  additional_setup = models.TextField(max_length=2000, blank=True)
   time_limit = models.PositiveSmallIntegerField()
   potential_events = models.ManyToManyField(
     to='events.Event',

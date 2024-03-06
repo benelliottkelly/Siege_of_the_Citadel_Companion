@@ -1,0 +1,486 @@
+[
+{
+  "model": "dark_legion.darklegion",
+  "pk": 1,
+  "fields": {
+    "card_number": 1,
+    "name": "Legionnaire Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657357/Siege%20of%20the%20Citadel/legionnaire_ae7vu7.jpg",
+    "subheading": "1 Legionnaire",
+    "description": "If this is the last reinforcement force card drawn, draw one more reinforcement force card"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 2,
+  "fields": {
+    "card_number": 2,
+    "name": "Legionnaire Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657357/Siege%20of%20the%20Citadel/legionnaire_ae7vu7.jpg",
+    "subheading": "1 Legionnaire",
+    "description": "If this is the last reinforcement force card drawn, draw one more reinforcement force card"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 3,
+  "fields": {
+    "card_number": 3,
+    "name": "Legionnaire Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657357/Siege%20of%20the%20Citadel/legionnaire_ae7vu7.jpg",
+    "subheading": "1 Legionnaire",
+    "description": "If this is the last reinforcement force card drawn, draw one more reinforcement force card"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 4,
+  "fields": {
+    "card_number": 4,
+    "name": "Legionnaire Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657357/Siege%20of%20the%20Citadel/legionnaire_ae7vu7.jpg",
+    "subheading": "1 Legionnaire",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 5,
+  "fields": {
+    "card_number": 5,
+    "name": "Legionnaire Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657357/Siege%20of%20the%20Citadel/legionnaire_ae7vu7.jpg",
+    "subheading": "1 Legionnaire",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 6,
+  "fields": {
+    "card_number": 6,
+    "name": "Legionnaire Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657357/Siege%20of%20the%20Citadel/legionnaire_ae7vu7.jpg",
+    "subheading": "1 Legionnaire",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 7,
+  "fields": {
+    "card_number": 7,
+    "name": "Necromutant Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657358/Siege%20of%20the%20Citadel/necromutant_pexy6k.jpg",
+    "subheading": "1 Necromutant",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 8,
+  "fields": {
+    "card_number": 8,
+    "name": "Necromutant Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657358/Siege%20of%20the%20Citadel/necromutant_pexy6k.jpg",
+    "subheading": "1 Necromutant",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 9,
+  "fields": {
+    "card_number": 9,
+    "name": "Necromutant Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657358/Siege%20of%20the%20Citadel/necromutant_pexy6k.jpg",
+    "subheading": "1 Necromutant",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 10,
+  "fields": {
+    "card_number": 10,
+    "name": "Necromutant Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657358/Siege%20of%20the%20Citadel/necromutant_pexy6k.jpg",
+    "subheading": "1 Necromutant",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 11,
+  "fields": {
+    "card_number": 11,
+    "name": "Necromutant Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657358/Siege%20of%20the%20Citadel/necromutant_pexy6k.jpg",
+    "subheading": "1 Necromutant",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 12,
+  "fields": {
+    "card_number": 12,
+    "name": "Centurion Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657356/Siege%20of%20the%20Citadel/centurion_gm9cxo.jpg",
+    "subheading": "1 Centurion",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 13,
+  "fields": {
+    "card_number": 13,
+    "name": "Centurion Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657356/Siege%20of%20the%20Citadel/centurion_gm9cxo.jpg",
+    "subheading": "1 Centurion",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 14,
+  "fields": {
+    "card_number": 14,
+    "name": "Centurion Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657356/Siege%20of%20the%20Citadel/centurion_gm9cxo.jpg",
+    "subheading": "1 Centurion",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 15,
+  "fields": {
+    "card_number": 15,
+    "name": "Legionnaire Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657357/Siege%20of%20the%20Citadel/legionnaire_ae7vu7.jpg",
+    "subheading": "1 Legionnaire",
+    "description": "If this is the last reinforcement force card drawn, draw one more reinforcement force card"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 16,
+  "fields": {
+    "card_number": 16,
+    "name": "Legionnaire Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657357/Siege%20of%20the%20Citadel/legionnaire_ae7vu7.jpg",
+    "subheading": "1 Legionnaire",
+    "description": "If this is the last reinforcement force card drawn, draw one more reinforcement force card"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 17,
+  "fields": {
+    "card_number": 17,
+    "name": "Legionnaire Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657357/Siege%20of%20the%20Citadel/legionnaire_ae7vu7.jpg",
+    "subheading": "1 Legionnaire",
+    "description": "If this is the last reinforcement force card drawn, draw one more reinforcement force card"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 18,
+  "fields": {
+    "card_number": 18,
+    "name": "Necromutant Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657358/Siege%20of%20the%20Citadel/necromutant_pexy6k.jpg",
+    "subheading": "1 Necromutant",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 19,
+  "fields": {
+    "card_number": 19,
+    "name": "Necromutant Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657358/Siege%20of%20the%20Citadel/necromutant_pexy6k.jpg",
+    "subheading": "1 Necromutant",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 20,
+  "fields": {
+    "card_number": 20,
+    "name": "Necromutant Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657358/Siege%20of%20the%20Citadel/necromutant_pexy6k.jpg",
+    "subheading": "1 Necromutant",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 21,
+  "fields": {
+    "card_number": 21,
+    "name": "Necromutant Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657358/Siege%20of%20the%20Citadel/necromutant_pexy6k.jpg",
+    "subheading": "1 Necromutant",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 22,
+  "fields": {
+    "card_number": 22,
+    "name": "Centurion Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657356/Siege%20of%20the%20Citadel/centurion_gm9cxo.jpg",
+    "subheading": "1 Centurion",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 23,
+  "fields": {
+    "card_number": 23,
+    "name": "Centurion Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657356/Siege%20of%20the%20Citadel/centurion_gm9cxo.jpg",
+    "subheading": "1 Centurion",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 24,
+  "fields": {
+    "card_number": 24,
+    "name": "Razide Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657363/Siege%20of%20the%20Citadel/razide_c9i81o.jpg",
+    "subheading": "1 Razide",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 25,
+  "fields": {
+    "card_number": 25,
+    "name": "Razide Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657363/Siege%20of%20the%20Citadel/razide_c9i81o.jpg",
+    "subheading": "1 Razide",
+    "description": "Draw no more reinforcement force cards"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 26,
+  "fields": {
+    "card_number": 26,
+    "name": "Razide Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657363/Siege%20of%20the%20Citadel/razide_c9i81o.jpg",
+    "subheading": "1 Razide",
+    "description": "Draw no more reinforcement force cards"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 27,
+  "fields": {
+    "card_number": 27,
+    "name": "Razide Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657363/Siege%20of%20the%20Citadel/razide_c9i81o.jpg",
+    "subheading": "1 Razide",
+    "description": "Draw no more reinforcement force cards and remove this card from the mission"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 28,
+  "fields": {
+    "card_number": 28,
+    "name": "Necromutant Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657358/Siege%20of%20the%20Citadel/necromutant_pexy6k.jpg",
+    "subheading": "1 Necromutant",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 29,
+  "fields": {
+    "card_number": 29,
+    "name": "Necromutant Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657358/Siege%20of%20the%20Citadel/necromutant_pexy6k.jpg",
+    "subheading": "1 Necromutant",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 30,
+  "fields": {
+    "card_number": 30,
+    "name": "Centurion Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657356/Siege%20of%20the%20Citadel/centurion_gm9cxo.jpg",
+    "subheading": "1 Centurion",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 31,
+  "fields": {
+    "card_number": 31,
+    "name": "Centurion Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657356/Siege%20of%20the%20Citadel/centurion_gm9cxo.jpg",
+    "subheading": "1 Centurion",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 32,
+  "fields": {
+    "card_number": 32,
+    "name": "Praetorian Stalker Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657364/Siege%20of%20the%20Citadel/praetorian_stalker_jdinya.jpg",
+    "subheading": "1 Praetorian Stalker",
+    "description": "Draw no more reinforcement force cards"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 33,
+  "fields": {
+    "card_number": 33,
+    "name": "Praetorian Stalker Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657364/Siege%20of%20the%20Citadel/praetorian_stalker_jdinya.jpg",
+    "subheading": "1 Praetorian Stalker",
+    "description": "Draw no more reinforcement force cards and remove this card from the mission"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 34,
+  "fields": {
+    "card_number": 34,
+    "name": "Nepharite Overlord",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657370/Siege%20of%20the%20Citadel/nepharite_gksbd2.jpg",
+    "subheading": "1 Nepharite",
+    "description": "Draw no more reinforcement force cards and remove this card from the mission. The Nepharite has three actions each turn."
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 35,
+  "fields": {
+    "card_number": 35,
+    "name": "Ezoghoul Beastmaster",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657369/Siege%20of%20the%20Citadel/ezoghoul_jrpthi.jpg",
+    "subheading": "1 Ezoghoul",
+    "description": "Draw no more reinforcement force cards and remove this card from the mission. The Ezoghoul has three actions each turn."
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 36,
+  "fields": {
+    "card_number": 36,
+    "name": "Diversion Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657356/Siege%20of%20the%20Citadel/diversion_djifd9.jpg",
+    "subheading": "",
+    "description": "When this card is drawn, no Dark Legion creature appears."
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 37,
+  "fields": {
+    "card_number": 37,
+    "name": "Legionnaire Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657365/Siege%20of%20the%20Citadel/x2_legionnaires_jiucyj.jpg",
+    "subheading": "2 Legionnaires",
+    "description": ""
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 38,
+  "fields": {
+    "card_number": 38,
+    "name": "Sentry Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657354/Siege%20of%20the%20Citadel/centurion_or_necromutant_coph2z.jpg",
+    "subheading": "1 Centurion or 1 Necromutant",
+    "description": "The Dark Legion player chooses either one Centurion or one Necromutant"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 39,
+  "fields": {
+    "card_number": 39,
+    "name": "Sentry Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657354/Siege%20of%20the%20Citadel/centurion_or_necromutant_coph2z.jpg",
+    "subheading": "1 Centurion or 1 Necromutant",
+    "description": "The Dark Legion player chooses either one Centurion or one Necromutant"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 40,
+  "fields": {
+    "card_number": 40,
+    "name": "Sentry Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657360/Siege%20of%20the%20Citadel/centurion_or_x2_legionnaires_uwj0qh.jpg",
+    "subheading": "1 Centurion or 2 Legionnaires",
+    "description": "The Dark Legion player chooses either one Centurion or two Legionnaires"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 41,
+  "fields": {
+    "card_number": 41,
+    "name": "Sentry Cohort",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657360/Siege%20of%20the%20Citadel/centurion_or_x2_legionnaires_uwj0qh.jpg",
+    "subheading": "1 Centurion or 2 Legionnaires",
+    "description": "The Dark Legion player chooses either one Centurion or two Legionnaires"
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 42,
+  "fields": {
+    "card_number": 42,
+    "name": "Advance Guard",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657365/Siege%20of%20the%20Citadel/razide_or_centurion_ks75mk.jpg",
+    "subheading": "1 Razide or 1 Centurion",
+    "description": "The Dark Legion player chooses either one Razide or one Centurion. Draw no more reinforcement force cards."
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 43,
+  "fields": {
+    "card_number": 43,
+    "name": "Advance Guard",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657365/Siege%20of%20the%20Citadel/razide_or_x2_necromutants_r0o8jd.jpg",
+    "subheading": "1 Razide or 2 Necromutants",
+    "description": "The Dark Legion player chooses either one Razide or two Necromutants. Draw no more reinforcement force cards."
+  }
+},
+{
+  "model": "dark_legion.darklegion",
+  "pk": 44,
+  "fields": {
+    "card_number": 44,
+    "name": "Advance Guard",
+    "image": "https://res.cloudinary.com/dqk3feale/image/upload/v1709657361/Siege%20of%20the%20Citadel/razide_or_centurion_and_necromutant_dpnmct.jpg",
+    "subheading": "1 Razide or 1 Centurion & 1 Necromutant",
+    "description": "The Dark Legion player chooses either one Razide or one Centurion and one Necromutant. Draw no more reinforcement force cards and remove this card from the mission."
+  }
+}
+]

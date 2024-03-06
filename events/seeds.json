@@ -1,0 +1,302 @@
+[
+{
+  "model": "events.event",
+  "pk": 1,
+  "fields": {
+    "number": 1,
+    "title": "Close Combat Phobia",
+    "text": "The Lord of the Citadel induces a phobia against close combat among the Doomtroopers. Doomtroopers may not attack in close combat during the rest of the round.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 2,
+  "fields": {
+    "number": 2,
+    "title": "Dark Teleportation",
+    "text": "Immediately move one Dark Legion figure on any sector tile to an empty square on any other sector tile. This counts as one of that figure's actions for the turn.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 3,
+  "fields": {
+    "number": 3,
+    "title": "Temporary Defensive System",
+    "text": "A defense system of the Citadel is triggered. The Dark Legion player targetts 1 Doomtrooper figure in any sector and attacks them with ⬛⬛⬛.\r\nDoomtrooper defense and armor checks apply.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 4,
+  "fields": {
+    "number": 4,
+    "title": "Close Combat Frenzy",
+    "text": "Close combat frenzy grips the Dark Legion troops. When making a close combat attack, all Dark Legion creatures may re-roll one combat die of the Dark Legion player's choice. This lasts for the duration of the Dark Legion turn.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 5,
+  "fields": {
+    "number": 5,
+    "title": "Mental Block",
+    "text": "The Lord of the Citadel induces a mental block in all Doomtroopers that disrupts their senses. No Doomtroopers may make firearms attacks for the remainder of this round.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 6,
+  "fields": {
+    "number": 6,
+    "title": "Necrofrenzy",
+    "text": "A wave of necro-energy pulsates through the Citadel. All Necromutants and Centurions are allowed one extra action during the Dark Legion player's turn.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 7,
+  "fields": {
+    "number": 7,
+    "title": "Dark Energy Wave",
+    "text": "A wave of Dark Symmetry sweeps through the Citadel. All Dark Legion creatures may re-roll one combat die of the Dark Legion player's choice when making a firearm attack. This lasts for the duration of the Dark Legion player's turn.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 8,
+  "fields": {
+    "number": 8,
+    "title": "Intercepted Orders",
+    "text": "The Dark Legion disrupt communications between a Doomtrooper target and their combat coordinators. The targeted Doomtrooper is reduced to 1 action on their next turn. Doomtrooper cards can still be used for extra actions. Place this card face up next to the affected Doomtrooper, then discard once their turn is complete.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 9,
+  "fields": {
+    "number": 9,
+    "title": "Dark Influence",
+    "text": "The Dark Legion and Dark Symmetry briefly synchronise. The Dark Legion player may take up to 2 extra actions during their turn. Extra actions can be assigned to any of their creatures, even after that creature has completed its activation for the turn.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 10,
+  "fields": {
+    "number": 10,
+    "title": "Magnetic Restraints",
+    "text": "The Doomtroopers have triggered the sector's magnetic floor restraints. The Dark Legion player chooses which sector tile. All Doomtroopers on that sector tile are considered blocked until the end of the round. A blocked character can only move two squares during a Move action.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 11,
+  "fields": {
+    "number": 11,
+    "title": "Combat Neurosis",
+    "text": "A Doomtrooper team is gripped by combat neurosis. The targeted Doomtrooper team cannot use Doomtrooper cards on their next turn. Play this card face up next to the affected Corporation player, then discard once their turn is complete.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 12,
+  "fields": {
+    "number": 12,
+    "title": "Corrupted Equipment",
+    "text": "A wave of Corruption surges through the Citadel, warping the Doomtroopers' tactical gear. The Dark Legion player targets 1 Doomtrooper. If possible, the targeted Doomtrooper must discard one non-weapon equipment card.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 13,
+  "fields": {
+    "number": 13,
+    "title": "Security Encryption",
+    "text": "The Citadel's defenses receive new security protocols. Doomtroopers may not make tech attacks for the rest of this round.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 14,
+  "fields": {
+    "number": 14,
+    "title": "Defensive Spike",
+    "text": "The Dark Symmetry crackles through the Citadel's arteries. Each Doomtrooper with a tech weapon or tech weapon combo adjacent to a wall is attacked by a trap (see Dark Legion reference board).\r\nDoomtrooper defense and armor checks apply.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 15,
+  "fields": {
+    "number": 15,
+    "title": "Legion Charge",
+    "text": "The forces of the Dark Legion make a massed charge.",
+    "reinforcements": "1 Centurion\r\n1 Necromutant\r\n2 Legionnaires per Corporation player"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 16,
+  "fields": {
+    "number": 16,
+    "title": "Fallen Friend",
+    "text": "A Doomtrooper team is struck with horror. Choose a Corporation player. Their Doomtroopers cannot make close combat attacks against Centurions during their next attack. Place this card face up next to the affected Corporation player, then discard once their turn is over.",
+    "reinforcements": "1 Centurion\r\nDraw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 17,
+  "fields": {
+    "number": 17,
+    "title": "Razide Fear",
+    "text": "A Doomtrooper team is crippled with fear. Choose a Corporation player. Their Doomtroopers cannot make close combat attacks against Razides during their next attack. Place this card face up next to the affected Corporation player, then discard once their turn is over.",
+    "reinforcements": "1 Razide\r\nDraw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 18,
+  "fields": {
+    "number": 18,
+    "title": "An Eerie Silence",
+    "text": "No Event.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 19,
+  "fields": {
+    "number": 19,
+    "title": "A Moment Of Respite",
+    "text": "No Event.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 20,
+  "fields": {
+    "number": 20,
+    "title": "Twin Terror",
+    "text": "Two Praetorian Stalkers enter the Citadel. Fear and destruction follow Algeroth's fearsome machines of war.",
+    "reinforcements": "2 Praetorian Stalkers"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 21,
+  "fields": {
+    "number": 21,
+    "title": "Nepharite Time Rift",
+    "text": "A Nepharite warps time and reality, moving through it while everything around them stands still. A Nepharite figure may move through other figures and walls on its Move actions during the Dark Legion player's turn.",
+    "reinforcements": "1 Nepharite\r\n1 Necromutant\r\n1 Legionnaire"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 22,
+  "fields": {
+    "number": 22,
+    "title": "Ezoghoul Attack",
+    "text": "A huge Ezoghoul enters the Citadel. The Ezoghoul can enter through any Doomtrooper or Dark Legion entrance token.",
+    "reinforcements": "1 Ezoghoul\r\n3 Legionnaires"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 23,
+  "fields": {
+    "number": 23,
+    "title": "Legionnaire Frenzy",
+    "text": "The Citadel radiates an electrified vibration which energizes the Dark Legion footsoldiers. All Legionnaires may perform 1 extra action during the Dark Legion players turn.",
+    "reinforcements": "1 Legionnaire\r\nDraw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 24,
+  "fields": {
+    "number": 24,
+    "title": "Razide Fury",
+    "text": "The Razides in the Citadel are glowing with rage. All Razides add one extra ⬜ to all attack actions this round.",
+    "reinforcements": "1 Razide\r\nDraw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 25,
+  "fields": {
+    "number": 25,
+    "title": "Mitosis",
+    "text": "Before placing reinforcements, a Dark Legion creature of the Dark Legion player's choice spawns a clone in an adjacent square. A Nepharite or Ezoghoul cannot be chosen.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 26,
+  "fields": {
+    "number": 26,
+    "title": "Berserk",
+    "text": "The Dark Legion are overcome with bloodlust. Choose 1 Centurion or Necromutant. Doomtroopers may not perform armor checks against this creature for the remainder of this round.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 27,
+  "fields": {
+    "number": 27,
+    "title": "Unholy Transformation",
+    "text": "The Necromutants sup on the dark energy of the Citadel. Before placing reinforcements, promote up to 2 Necromutants to Centurions. Unless the figures are unavailable, replace the selected Necromutants with Centurions.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 28,
+  "fields": {
+    "number": 28,
+    "title": "Surrounded",
+    "text": "Dark Legion forces are attacking from all sides. For this round, providing a Doomtrooper is present on the sector tile and the entrance does not join another sector tile, Dark Legion reinforcements may enter through any entrance of the sector tile.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 29,
+  "fields": {
+    "number": 29,
+    "title": "Defensive Upload",
+    "text": "The Citadel's defenses are upgraded. For the duration of this round, the Dark Legion player may force a Tech Specialist to re-roll 1 combat die used in any attack. The Dark Legion player chooses which die.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 30,
+  "fields": {
+    "number": 30,
+    "title": "Flickering Light",
+    "text": "Something moves in the shadows, but it is not yet ready to show itself. No Event.",
+    "reinforcements": "Draw as many force cards as there are Corporation players"
+  }
+}
+]
