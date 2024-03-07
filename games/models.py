@@ -1,6 +1,6 @@
 from django.db import models
 
-class GameSetup(models.Model):
+class Game(models.Model):
   owner = models.ForeignKey(
     to='users.User',
     on_delete=models.CASCADE,
