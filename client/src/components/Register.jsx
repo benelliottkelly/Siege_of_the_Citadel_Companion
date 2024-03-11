@@ -17,10 +17,9 @@ export default function Register() {
     image: null
   })
 
-  const [res, setRes ] = useState(null)
+  const [ res, setRes ] = useState(null)
 
-  // functions
-
+  // Functions
   function handleChange(e) {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
@@ -41,6 +40,7 @@ export default function Register() {
     }
   }, [res])
 
+  // Clears the register error message
   function resetRes(){
     setRes(null)
   }
@@ -50,7 +50,7 @@ export default function Register() {
       <Nav />
       <section className="form-container">
         <h1>Register</h1>
-        <Form className='form' id='register-form' onSubmit={handleSubmit}>
+        <Form className='form' id='register-form' onSubmit={handleSubmit} method="POST">
           <input type="text" name="username" placeholder='Username' required onChange={handleChange} value={formData.username} />
           <input type="email" name="email" placeholder='email' required onChange={handleChange} value={formData.email} />
           <input type="text" name="first_name" placeholder='First Name' onChange={handleChange} value={formData.first_name} />
@@ -59,7 +59,7 @@ export default function Register() {
           <input type="password" name="password_confirmation" placeholder='Password Confirmation' required onChange={handleChange} value={formData.password_confirmation} />
           <ImageUploadField setFormData={setFormData} formData={formData} /> {/* This line needs to change the hidden line below */}
           <input type='hidden' name='image' value={formData.image ? formData.image : 'insert default image link here'} />
-          <button className='btn form-button' type="submit">Register</button>
+          <button type="submit">Register</button>
           {res && 
             <div>
               <button onClick={resetRes}>❌</button>

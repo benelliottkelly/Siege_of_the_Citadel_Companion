@@ -1,12 +1,14 @@
 import { Outlet } from 'react-router-dom'
-import './App.css'
+import { LoginProvider } from './components/LoginContext'
 
 function App() {
   
 
   return (
     <>
-      <Outlet />
+      <LoginProvider>
+        <Outlet />
+      </LoginProvider>
     </>
   )
 }
