@@ -5,8 +5,8 @@ export default function Nav() {
     <header>
       <nav>
         <Link className='nav-link' to={'/'}><button>Home</button></Link>
-        <Link className='nav-link' to={'/login'}><button>Login</button></Link>
-        <Link className='nav-link' to={'/register'}><button>Register</button></Link>
+        <Link className='nav-link' to={'/login/'}><button>Login</button></Link>
+        <Link className='nav-link' to={'/register/'}><button>Register</button></Link>
       </nav>
     </header>
   )
