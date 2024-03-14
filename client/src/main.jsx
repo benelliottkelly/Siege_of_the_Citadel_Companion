@@ -15,11 +15,13 @@ import Games from './components/Games.jsx'
 import CreateGame from './components/CreateGame.jsx'
 import GameBoard from './components/GameBoard.jsx'
 
+// Loaders
+import { createGameLoader } from './utils/loaders.js'
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    // loader: rootLoader,
     children: [
       {
         path: '/',
@@ -40,6 +42,7 @@ const router = createBrowserRouter([
       {
         path: '/games/create',
         element: <CreateGame />,
+        loader: createGameLoader
       },
       {
         path: '/games/:gamepk',

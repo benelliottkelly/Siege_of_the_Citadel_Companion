@@ -1,5 +1,5 @@
 import { useEffect, useState, useContext } from 'react'
-import { Form, useActionData, useNavigate } from 'react-router-dom'
+import { Form, useNavigate, Link } from 'react-router-dom'
 import { loginUser } from '../utils/actions/auth'
 import { setToken } from '../utils/helpers/common'
 import { loginContext } from './LoginContext'
@@ -68,6 +68,7 @@ export default function Login() {
             </div>
           }
       </Form>
+      <p>Don't have an account? Please <Link to={'/register/'}>register here</Link>.</p>
     </>
   )
 }

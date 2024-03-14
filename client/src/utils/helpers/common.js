@@ -31,3 +31,19 @@ export function doesTokenExist(){
     return true
   }
 }
+
+// Function to determin which user is logged in
+export function getUser(){
+  const token = getToken()
+  if (!token) {
+    return null
+  }
+  const b64 = token.split('.')[1]
+  const payload = JSON.parse(atob(b64))
+  console.log(payload.user_id)
+  // if (payload.user_id === user){
+  //   return true
+  // } else {
+  //   return false
+  // }
+}

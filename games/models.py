@@ -6,8 +6,9 @@ class Game(models.Model):
     on_delete=models.CASCADE,
     related_name='game_setups'
   )
-  mission = models.ManyToManyField(
+  mission = models.ForeignKey(
     to='levels.Level',
+    on_delete=models.CASCADE,
     related_name='game_setups'
   )
   number_of_players = models.PositiveSmallIntegerField()
