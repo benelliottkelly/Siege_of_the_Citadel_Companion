@@ -3,6 +3,7 @@ import { Form, useNavigate, Link, useLoaderData } from 'react-router-dom'
 import { loginContext } from './LoginContext'
 import { getUser } from "../utils/helpers/common"
 import { createGame } from '../utils/actions/create'
+import Select from 'react-select'
 import { v4 as uuidv4 } from 'uuid'
 import Nav from "./Nav"
 
@@ -23,8 +24,12 @@ export default function CreateGame() {
     use_computer_to_draw_reinforcements: ''
   })
 
-  const [ res, setRes ] = useState(null)
+  const [ levelSelect, setLevelSelect ] = useState({
+    campaign: '',
+    mission: ''
+  })
 
+  const [ res, setRes ] = useState(null)
   const { loggedIn, setLoggedIn } = useContext(loginContext)
 
   // Functions
@@ -42,12 +47,16 @@ export default function CreateGame() {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
-  function handleArrayChange(e) {
+  function handleReactSelectChange(e) {
     let arr = []
     e.forEach((item) => {
       arr.push(item.value)
     })
-    setFormData({ ...formData, genre: arr })
+    setFormData({ ...formData, corporations: arr })
+  }
+
+  function handleLevelSelectChange(e) {
+    setLevelSelect({ ...levelSelect, [e.target.name]: e.target.value })
   }
 
   return (
@@ -55,14 +64,36 @@ export default function CreateGame() {
       <Nav />
       <h2>Create Game</h2>
       <Form className='form' id='login-form' onSubmit={handleSubmit}>
-        <input type="mission" name="mission" onChange={handleChange} placeholder='mission' />
-        <input type="number_of_players" name="number_of_players" onChange={handleChange} placeholder="number_of_players" />
-        <select multiple onChange={handleArrayChange}>
-          {corporations.length > 0 && corporations.map((corporation) => {
-            return <option value={corporation.id} label={corporation.name} key={uuidv4()}></option>
-          })}
+        <select name='campaign' onChange={handleLevelSelectChange} placeholder='campaign'>
+          <option selected disabled>Campaign</option>
+          <option value={1}>1</option>
+          <option value={2}>2</option>
         </select>
-        <button type="submit">Login</button>
+        <select name='mission' onChange={handleLevelSelectChange} placeholder='mission'>
+          <option selected disabled>Mission</option>
+          <option value={1}>1</option>
+          <option value={2}>2</option>
+          <option value={3}>3</option>
+          <option value={4}>4</option>
+          <option value={5}>5</option>
+        </select>
+        <select name='number_of_players' onChange={handleChange} placeholder='Number of Players'>
+          <option selected disabled>Number of Players</option>
+          <option value={1}>1</option>
+          <option value={2}>2</option>
+          <option value={3}>3</option>
+          <option value={4}>4</option>
+        </select>
+        <Select
+          defaultValue={[]}
+          isMulti
+          name="genre"
+          onChange={handleReactSelectChange}
+          options={corporations.length > 0 && corporations.map((corporation) => {
+            return {value: corporation.id, label: corporation.name, key: uuidv4()}
+          })}
+        />
+        <button type='submit'>Login</button>
         {res && 
           <div>
             <button onClick={resetRes}>❌</button>
