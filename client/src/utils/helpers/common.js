@@ -40,10 +40,11 @@ export function getUser(){
   }
   const b64 = token.split('.')[1]
   const payload = JSON.parse(atob(b64))
-  console.log(payload.user_id)
+  console.log('getUser payload.user_id ->', payload.user_id)
   // if (payload.user_id === user){
   //   return true
   // } else {
   //   return false
   // }
+  return payload.user_id
 }
