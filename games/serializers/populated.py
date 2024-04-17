@@ -5,5 +5,5 @@ from corporations.serializers.common import CorporationSerializer
 
 class PopulatedGameSerializer(GameSerializer):
   owner = UserSerializer
-  mission = LevelSerializer(many=True)
+  mission = LevelSerializer
   corporations = CorporationSerializer(many=True)

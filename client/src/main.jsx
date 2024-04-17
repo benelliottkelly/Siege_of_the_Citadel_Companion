@@ -16,7 +16,7 @@ import CreateGame from './components/CreateGame.jsx'
 import GameBoard from './components/GameBoard.jsx'
 
 // Loaders
-import { createGameLoader } from './utils/loaders.js'
+import { createGameLoader, gameLoader } from './utils/loaders.js'
 
 const router = createBrowserRouter([
   {
@@ -47,6 +47,7 @@ const router = createBrowserRouter([
       {
         path: '/games/:gamepk',
         element: <GameBoard />,
+        loader: async ({ params }) => gameLoader(params.gamepk)
       }
     ],
   },
