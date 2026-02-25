@@ -15,6 +15,7 @@ export default function Nav() {
         <Link className='nav-link' to={'/'}><button>Home</button></Link>
         <Link className='nav-link' to={'/login/'}><button>Login</button></Link>
         <Link className='nav-link' to={'/register/'}><button>Register</button></Link>
+        <Link to={'#'}><button>Profile</button></Link>
         <button onClick={handleLogOut}>Logout</button>
       </nav>
     </header>
