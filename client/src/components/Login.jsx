@@ -55,7 +55,6 @@ export default function Login() {
 
   return (
     <>
-      <Nav />
       <h2>Login</h2>
       <Form className='form' id='login-form' onSubmit={handleSubmit}>
           <input type="username" name="username" onChange={handleChange} placeholder='Username' />

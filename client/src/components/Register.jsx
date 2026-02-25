@@ -47,7 +47,6 @@ export default function Register() {
 
   return (
     <>
-      <Nav />
       <section className="form-container">
         <h1>Register</h1>
         <Form className='form' id='register-form' onSubmit={handleSubmit} method="POST">
