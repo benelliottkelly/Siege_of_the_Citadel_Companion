@@ -45,7 +45,7 @@ const router = createBrowserRouter([
         loader: createGameLoader
       },
       {
-        path: '/games/:gamepk',
+        path: '/games/board',
         element: <GameBoard />,
       }
     ],
