@@ -4,7 +4,7 @@
   "pk": 1,
   "fields": {
     "name": "Cybertronic",
-    "logo": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703147/Siege%20of%20the%20Citadel/cybertronic_ffejji.png",
+    "logo": "./client/src/assets/folder/cybertronic.png",
     "corporation_special_ability_level_1": "The team may re-roll 1 unsuccessful combat die when making a tech attack, adding any success to the total.",
     "corporation_special_ability_level_2": "The team may re-roll 1 unsuccessful combat die when making a tech attack, adding any success to the total.",
     "corporation_special_ability_level_3": "The team may re-roll 1 unsuccessful combat die when making a tech attack, adding any success to the total.",
@@ -24,7 +24,7 @@
   "pk": 2,
   "fields": {
     "name": "Imperial",
-    "logo": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703145/Siege%20of%20the%20Citadel/imperial_zzwb5h.png",
+    "logo": "./client/src/assets/folder/imperial.png",
     "corporation_special_ability_level_1": "The team starts a mission with 1 additional Doomtrooper card.",
     "corporation_special_ability_level_2": "The team starts a mission with 1 additional Doomtrooper card.",
     "corporation_special_ability_level_3": "The team starts a mission with 1 additional Doomtrooper card.",
@@ -44,7 +44,7 @@
   "pk": 3,
   "fields": {
     "name": "Mishima",
-    "logo": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703144/Siege%20of%20the%20Citadel/mishima_k0pdwz.png",
+    "logo": "./client/src/assets/folder/mishima.png",
     "corporation_special_ability_level_1": "The team may re-roll 1 unsuccessful combat die when making a close combat attack, adding any success to the total.",
     "corporation_special_ability_level_2": "The team may re-roll 1 unsuccessful combat die when making a close combat attack, adding any success to the total.",
     "corporation_special_ability_level_3": "The team may re-roll 1 unsuccessful combat die when making a close combat attack, adding any success to the total.",
@@ -64,7 +64,7 @@
   "pk": 4,
   "fields": {
     "name": "Bauhaus",
-    "logo": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703144/Siege%20of%20the%20Citadel/bauhaus_h7dkpn.png",
+    "logo": "./client/src/assets/folder/bauhaus.png",
     "corporation_special_ability_level_1": "The team may re-roll 1 unsuccessful combat die when making a firearm attack, adding any success to the total.",
     "corporation_special_ability_level_2": "The team may re-roll 1 unsuccessful combat die when making a firearm attack, adding any success to the total.",
     "corporation_special_ability_level_3": "The team may re-roll 1 unsuccessful combat die when making a firearm attack, adding any success to the total.",
@@ -84,7 +84,7 @@
   "pk": 5,
   "fields": {
     "name": "Capitol",
-    "logo": "https://res.cloudinary.com/dqk3feale/image/upload/v1708703143/Siege%20of%20the%20Citadel/capitol_czgfjv.png",
+    "logo": "./client/src/assets/folder/capitol.png",
     "corporation_special_ability_level_1": "The team starts the missions with 1 additional credit, and may equip items 1 rank above.",
     "corporation_special_ability_level_2": "The team starts the missions with 1 additional credit, and may equip items 1 rank above.",
     "corporation_special_ability_level_3": "The team starts the missions with 1 additional credit, and may equip items 1 rank above.",
